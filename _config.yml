@@ -1,6 +1,4 @@
 auto: true
-server: true
-server_port: 3000
 pygments: false
 lsi: false
 permalink: /:year/:month/:day/:title.html
@@ -11,3 +9,5 @@ rdiscount:
   extensions: [smart]
 # Since GH pages override this to "true", we test this value to see if we are running locally
 safe: false
+baseurl: /blog 
+BASE_PATH: /blog
